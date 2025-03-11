@@ -169,12 +169,13 @@ h1 {
 
 /* Grid */
 
-	.row {
-		display: grid;
-		grid-template-columns: repeat(4, 1fr); 
-		gap: 10px; 
+.row{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr); /* 每行 2 个元素 */
+	gap: 20px; /* 设置每个网格单元之间的间距 */
+  }
+  
 
-	}
 
 	@media screen and (min-width: 737px) and (max-width: 1200px) {
 
